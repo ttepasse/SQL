@@ -84,6 +84,7 @@ order by abt_id asc, stadt desc
 select mit_id, aufgabe
 from Arbeit
 where aufgabe = 'Projektleiter'
+order by mit_id
 
 
 -- Aufgabe 2.5
@@ -107,4 +108,5 @@ where aufgabe = 'Projektleiter'
 select *
 from Arbeit
 where pro_id = 'p2' or aufgabe = 'Projektleiter'
+
 order by pro_id asc, aufgabe asc
